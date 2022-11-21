@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.menu {
+   height: 80px;
+   background-color: rgba(135, 202, 26, 0.683);
+   display: flex;
+}
+.menu__list {
+   width: 1200px;
+   margin: 0 auto;
+   display: flex;
+}
+.menu__link {
+   display: block;
+   width: 150px;
+   height: 50px;
+   background-color: rgba(122, 130, 8, 0.171);
+   color: #fff;
+   text-decoration: none;
+   font-size: 24px;
+   line-height: 50px;
+   margin: 15px 20px 15px 0;
+   text-align: center;
+   border-radius: 8px;
+   font-family: Roboto, sans-serif;
+}
+.title {
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-family: Roboto, sans-serif;
+}
+.container {
+   width: 1200px;
+   margin: 0 auto;
+}
+p {
+   line-height: 24px;
+   font-size: 22px;
+   font-family: Roboto, sans-serif;
+   text-align: justify;
+}
+.content {
+   min-height: 500px;
+}
+.content-2 {
+   min-height: 800px;
+}
+.section {
+   width: 1200px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+}
+.part {
+   margin: 40px;
+}
+.part__link {
+   display: block;
+   width: 350px;
+   height: 350px;
+}
+.request {
+   width: 1200px;
+   padding: 20px;
+   margin: 0 auto;
+   justify-content: center;
+}
+.form {
+   line-height: 18px;
+   font-size: 18px;
+}
+.request_inp {
+   line-height: 18px;
+   font-size: 18px;
+   font-family: Roboto, sans-serif;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   width: 400px;
+}
+.btn {
+   background: blue;
+	padding: 10px 20px;
+	font-family: inherit;
+	color:#fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+   font-size: 20px;
+   font-family: Roboto, sans-serif;
+}
+.btn:hover {
+	opacity: 0.9;
+   background-color: green;
+}
+.footer {
+   height: 80px;
+   background-color: grey;
+   margin: 0 auto;
+   display: flex;
+   font-weight: wrap;
+   justify-content: space-around;
+   align-items: center;
+ }
+  .icons {
+    color: #000;
+ }
+  .fa {
+    font-size: 25px;
+    color:#0f141e;
+ }
+ .icons {
+    margin: 0 auto;
+    display: flex;
+    font-weight: wrap;
+    justify-content: space-around; 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center; 
+ }
+ a {
+    text-decoration: none;
+ }
+ .icons__link {
+   margin: 5px;
+ }
+ 
+
+
